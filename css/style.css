@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+    scrollbar-3dlight-color: #857bba;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #fff ;
+    color:#000;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+body,h1,h2,p, ul,li,a{
+    margin:0px;
+    padding: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.titleSection{
+    display: flex;
+    justify-content: center;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+.tec{
+    font-weight: 700;
+}
+
+.link{
+    border-bottom: 2px dashed #2222;
+}
+.link:hover{
+    background: #2222;
+    color: #000;
+    transition: 0.5s;
+    border-bottom: 2px dashed #a4a4a4;
+}
+
+/* Blog */
+
+
